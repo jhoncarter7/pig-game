@@ -23,8 +23,13 @@ main {
     height: 57vh;
     text-align: center;
     top: 11rem;
-    background-color:  rgb(238, 167, 158);
+  
+    transition: all 0.95s;
     border-radius: 9px;
+}
+.activebg{
+    background-color:  rgb(238, 167, 158);
+    opacity: .7;
 }
 
 .player-1 {
@@ -34,8 +39,9 @@ main {
     width: 32%;
     height: 57vh;
     top: 11rem;
-    background-color:  rgb(245, 127, 112);
     border-radius: 9px;
+    
+  transition: all 0.95s;
 }
 
 .current {
@@ -80,9 +86,10 @@ main {
     margin: 30px -34px;
     padding: 5px 12px;
     border-radius: 30px;
+    
 }
-/* .roll{
-    display: flex;
-   margin-top: 40px;
-   flex-direction: column;
-} */
+
+.winbg{
+
+    background-color: rgba(34, 65, 11, 0.806);
+}
