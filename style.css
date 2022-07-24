@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(195, 53, 164, 0.752);
+    /* z-index: -1; */
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* z-index: 2; */
+}
+
+.player-0 {
+    position: relative;
+    border: 2px solid red;
+    width: 32%;
+    height: 57vh;
+    text-align: center;
+    top: 11rem;
+    background-color:  rgb(238, 167, 158);
+    border-radius: 9px;
+}
+
+.player-1 {
+    position: relative;
+    text-align: center;
+    border: 2px solid red;
+    width: 32%;
+    height: 57vh;
+    top: 11rem;
+    background-color:  rgb(245, 127, 112);
+    border-radius: 9px;
+}
+
+.current {
+    position: absolute;
+    left: 33%;
+    bottom: 40px;
+    border: 2px solid red;
+    width: 12vw;
+    height: 12vh;
+    background-color: rgb(245, 100, 81)
+}
+.current h3{
+    font-size: 1.2rem;
+    margin-top: 8px;
+}
+.current p{
+    font-size: 1.8rem;
+    margin-top: 8px;
+}
+.name{
+   margin-top: 12px;
+   font-size: 2.2rem;
+}
+
+.score{
+    margin-top: 21px;
+    font-size: 2.2rem;
+}
+
+
+.btn {
+
+    position: absolute;
+    /* z-index: 10; */
+    display: flex;
+    flex-direction: column;
+    width: 5rem;
+    top: 28%;
+}
+
+.btn button {
+    margin: 30px -34px;
+    padding: 5px 12px;
+    border-radius: 30px;
+}
+/* .roll{
+    display: flex;
+   margin-top: 40px;
+   flex-direction: column;
+} */
