@@ -57,7 +57,7 @@ holddice.addEventListener("click", () => {
         score[activePlayer] += currentscore;
         document.getElementById(`score-${activePlayer}`).innerHTML = score[activePlayer];
 
-        if (score[activePlayer] >= 20) {
+        if (score[activePlayer] >= 100) {
             playing = false;
             document.querySelector(`.player-${activePlayer}`).classList.add("winbg");
             document.querySelector(`.player-${activePlayer}`).classList.remove("activebg");
